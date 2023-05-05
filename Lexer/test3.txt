@@ -1,0 +1,2800 @@
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}
+using System;
+using System.Linq;
+
+public class Program {
+    public static void Main() {
+        // Generate an array of 10 random integers between 1 and 100
+        Random random = new Random();
+        int[] numbers = Enumerable.Range(1, 10).Select(_ => random.Next(1, 101)).ToArray();
+
+        // Print the original array
+        Console.WriteLine("Original array:");
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // Filter the array to only include even numbers
+        int[] evens = numbers.Where(n => n % 2 == 0).ToArray();
+
+        // Print the filtered array
+        Console.WriteLine("Filtered array (even numbers only):");
+        Console.WriteLine(string.Join(", ", evens));
+
+        // Transform the array to double each number
+        double[] doubles = numbers.Select(n => n * 2.0).ToArray();
+
+        // Print the transformed array
+        Console.WriteLine("Transformed array (doubled numbers):");
+        Console.WriteLine(string.Join(", ", doubles));
+    }
+}

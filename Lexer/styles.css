@@ -1,0 +1,43 @@
+body {
+  font-family: "Courier New, Courier, monospace";
+  font-size: 22px;
+  font-weight: 400;
+  background-color: #282c34;
+  color: #bbbbb7;
+}
+
+span * {
+  color: inherit !important;
+}
+
+.comment {
+  color: grey;
+}
+
+.operator {
+  color: cadetblue;
+}
+
+.keyword {
+  color: red;
+}
+
+.char {
+  color: tan;
+}
+
+.string {
+  color: magenta;
+}
+
+.integer {
+  color: orange;
+}
+
+.real {
+  color: plum;
+}
+
+.identifier {
+  color: yellow;
+}

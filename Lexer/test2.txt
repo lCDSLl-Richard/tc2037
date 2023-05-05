@@ -1,0 +1,29 @@
+using System;
+using Moq;
+
+public interface IMyInterface {
+    void MyMethod(int arg);
+}
+
+public class MyClass {
+    private IMyInterface myInterface;
+
+    public MyClass(IMyInterface myInterface) {
+        this.myInterface = myInterface;
+    }
+
+    public void DoSomething(int arg) {
+        myInterface.MyMethod(arg);
+    }
+}
+
+public class MockTest {
+    public static void Main() {
+        var mockInterface = new Mock<IMyInterface>();
+        var myClass = new MyClass(mockInterface.Object);
+
+        myClass.DoSomething(42);
+
+        mockInterface.Verify(mock => mock.MyMethod(42), Times.Once());
+    }
+}
