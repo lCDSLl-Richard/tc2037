@@ -31,7 +31,6 @@ public:
         }
         buffer += file.get();
         tokens.push_back(Token(COMMENT, buffer));
-        buffer.clear();
       }
       else if (std::regex_match(buffer + next, comment_start))
       {
@@ -40,7 +39,6 @@ public:
           buffer += file.get();
         }
         tokens.push_back(Token(COMMENT, buffer));
-        buffer.clear();
       }
       else if (std::regex_match(buffer, string_start))
       {
@@ -50,7 +48,6 @@ public:
         }
         buffer += file.get();
         tokens.push_back(Token(STRING, buffer));
-        buffer.clear();
       }
       else if (std::regex_match(buffer, number))
       {
@@ -60,33 +57,32 @@ public:
           next = file.peek();
         }
         tokens.push_back(Token(INTEGER, buffer));
-        buffer.clear();
       }
-      else if (std::regex_match(buffer, keyword_pattern) && next == " ")
+      else if (std::regex_match(buffer, keyword_pattern) && (next == " " || next == "\n" || next == "\t" || std::regex_match(next, operator_pattern)))
       {
         tokens.push_back(Token(KEYWORD, buffer));
-        buffer.clear();
       }
       else if (std::regex_match(buffer, operator_pattern))
       {
         tokens.push_back(Token(OPERATOR, buffer));
-        buffer.clear();
       }
       else if (std::regex_match(buffer, breakpoint_pattern))
       {
         tokens.push_back(Token(NONE, buffer));
-        buffer.clear();
       }
       else if (std::regex_match(next, breakpoint_pattern))
       {
         tokens.push_back(Token(IDENTIFIER, buffer));
-        buffer.clear();
+      }
+      else if (next == "(")
+      {
+        tokens.push_back(Token(FUNCTION, buffer));
       }
       else if (std::regex_match(next, operator_pattern))
       {
         tokens.push_back(Token(IDENTIFIER, buffer));
-        buffer.clear();
       }
+      buffer.clear();
     }
     file.close();
   }

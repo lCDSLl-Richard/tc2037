@@ -10,6 +10,7 @@ enum Type
   STRING,
   OPERATOR,
   COMMENT,
+  FUNCTION,
   NONE
 };
 
@@ -59,6 +60,10 @@ public:
 
     case COMMENT:
       return "COMMENT";
+      break;
+
+    case FUNCTION:
+      return "FUNCTION";
       break;
 
     default:
