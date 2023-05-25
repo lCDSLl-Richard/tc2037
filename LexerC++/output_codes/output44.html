@@ -1,0 +1,45 @@
+<head><link rel='stylesheet' href='../style.css'></head><body><pre><span class='COMMENT'>// C# Program Checks Whether the Entered Number is a Amicable Number or Not</span>
+
+<span class='KEYWORD'>using</span> <span class='IDENTIFIER'>System</span><span class='OPERATOR'>;</span>
+<span class='KEYWORD'>using</span> <span class='IDENTIFIER'>System</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Collections</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Generic</span><span class='OPERATOR'>;</span>
+<span class='KEYWORD'>using</span> <span class='IDENTIFIER'>System</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Linq</span><span class='OPERATOR'>;</span>
+<span class='KEYWORD'>using</span> <span class='IDENTIFIER'>System</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Text</span><span class='OPERATOR'>;</span>
+ 
+<span class='KEYWORD'>namespace</span> <span class='IDENTIFIER'>Program</span>
+<span class='OPERATOR'>{</span>
+    <span class='KEYWORD'>class</span> <span class='IDENTIFIER'>Program</span>
+    <span class='OPERATOR'>{</span>
+        <span class='KEYWORD'>public</span> <span class='KEYWORD'>static</span> <span class='KEYWORD'>void</span> <span class='IDENTIFIER'>Main</span><span class='OPERATOR'>(</span><span class='IDENTIFIER'>String</span><span class='OPERATOR'>[</span><span class='OPERATOR'>]</span> <span class='IDENTIFIER'>args</span><span class='OPERATOR'>)</span>
+        <span class='OPERATOR'>{</span>
+            <span class='KEYWORD'>int</span> <span class='IDENTIFIER'>num1</span><span class='OPERATOR'>,</span> <span class='IDENTIFIER'>num2</span><span class='OPERATOR'>,</span> <span class='IDENTIFIER'>sum1</span> <span class='OPERATOR'>=</span> <span class='INTEGER'>0</span><span class='OPERATOR'>,</span> <span class='IDENTIFIER'>sum2</span> <span class='OPERATOR'>=</span> <span class='INTEGER'>0</span><span class='OPERATOR'>,</span> <span class='IDENTIFIER'>i</span><span class='OPERATOR'>;</span>
+            <span class='IDENTIFIER'>Console</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>WriteLine</span><span class='OPERATOR'>(</span><span class='STRING'>"Enter First Number : "</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+            <span class='IDENTIFIER'>num1</span> <span class='OPERATOR'>=</span> <span class='IDENTIFIER'>int</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Parse</span><span class='OPERATOR'>(</span><span class='IDENTIFIER'>Console</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>ReadLine</span><span class='OPERATOR'>(</span><span class='OPERATOR'>)</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+            <span class='IDENTIFIER'>Console</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>WriteLine</span><span class='OPERATOR'>(</span><span class='STRING'>"Enter Second Number : "</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+            <span class='IDENTIFIER'>num2</span> <span class='OPERATOR'>=</span> <span class='IDENTIFIER'>int</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Parse</span><span class='OPERATOR'>(</span><span class='IDENTIFIER'>Console</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>ReadLine</span><span class='OPERATOR'>(</span><span class='OPERATOR'>)</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+            <span class='KEYWORD'>for</span> <span class='OPERATOR'>(</span><span class='IDENTIFIER'>i</span> <span class='OPERATOR'>=</span> <span class='INTEGER'>1</span><span class='OPERATOR'>;</span> <span class='IDENTIFIER'>i</span> <span class='OPERATOR'><</span> <span class='IDENTIFIER'>num1</span><span class='OPERATOR'>;</span> <span class='IDENTIFIER'>i</span><span class='OPERATOR'>+</span><span class='OPERATOR'>+</span><span class='OPERATOR'>)</span>
+            <span class='OPERATOR'>{</span>
+                <span class='KEYWORD'>if</span> <span class='OPERATOR'>(</span><span class='IDENTIFIER'>num1</span> <span class='OPERATOR'>%</span> <span class='IDENTIFIER'>i</span> <span class='OPERATOR'>=</span><span class='OPERATOR'>=</span> <span class='INTEGER'>0</span><span class='OPERATOR'>)</span>
+                <span class='OPERATOR'>{</span>
+                    <span class='IDENTIFIER'>sum1</span> <span class='OPERATOR'>=</span> <span class='IDENTIFIER'>sum1</span> <span class='OPERATOR'>+</span> <span class='IDENTIFIER'>i</span><span class='OPERATOR'>;</span>
+                <span class='OPERATOR'>}</span>
+            <span class='OPERATOR'>}</span>
+            <span class='KEYWORD'>for</span> <span class='OPERATOR'>(</span><span class='IDENTIFIER'>i</span> <span class='OPERATOR'>=</span> <span class='INTEGER'>1</span><span class='OPERATOR'>;</span> <span class='IDENTIFIER'>i</span> <span class='OPERATOR'><</span> <span class='IDENTIFIER'>num2</span><span class='OPERATOR'>;</span> <span class='IDENTIFIER'>i</span><span class='OPERATOR'>+</span><span class='OPERATOR'>+</span><span class='OPERATOR'>)</span>
+            <span class='OPERATOR'>{</span>
+                <span class='KEYWORD'>if</span> <span class='OPERATOR'>(</span><span class='IDENTIFIER'>num2</span> <span class='OPERATOR'>%</span> <span class='IDENTIFIER'>i</span> <span class='OPERATOR'>=</span><span class='OPERATOR'>=</span> <span class='INTEGER'>0</span><span class='OPERATOR'>)</span>
+                <span class='OPERATOR'>{</span>
+                    <span class='IDENTIFIER'>sum2</span> <span class='OPERATOR'>=</span> <span class='IDENTIFIER'>sum2</span> <span class='OPERATOR'>+</span> <span class='IDENTIFIER'>i</span><span class='OPERATOR'>;</span>
+                <span class='OPERATOR'>}</span>
+            <span class='OPERATOR'>}</span>
+            <span class='KEYWORD'>if</span> <span class='OPERATOR'>(</span><span class='IDENTIFIER'>num1</span> <span class='OPERATOR'>=</span><span class='OPERATOR'>=</span> <span class='IDENTIFIER'>sum2</span> <span class='OPERATOR'>&</span><span class='OPERATOR'>&</span> <span class='IDENTIFIER'>num2</span> <span class='OPERATOR'>=</span><span class='OPERATOR'>=</span> <span class='IDENTIFIER'>sum1</span><span class='OPERATOR'>)</span>
+            <span class='OPERATOR'>{</span>
+                <span class='IDENTIFIER'>Console</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>WriteLine</span><span class='OPERATOR'>(</span><span class='STRING'>"They are a Pair of Amicable Numbers"</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+                <span class='IDENTIFIER'>Console</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>ReadLine</span><span class='OPERATOR'>(</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+            <span class='OPERATOR'>}</span>
+            <span class='IDENTIFIER'>else</span>
+            <span class='OPERATOR'>{</span>
+                <span class='IDENTIFIER'>Console</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>WriteLine</span><span class='OPERATOR'>(</span><span class='STRING'>"They are not Amicable Numbers"</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+                <span class='IDENTIFIER'>Console</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>ReadLine</span><span class='OPERATOR'>(</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+            <span class='OPERATOR'>}</span>
+        <span class='OPERATOR'>}</span>
+    <span class='OPERATOR'>}</span>
+<span class='OPERATOR'>}</span></pre></body>

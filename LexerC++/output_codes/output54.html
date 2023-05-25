@@ -1,0 +1,21 @@
+<head><link rel='stylesheet' href='../style.css'></head><body><pre><span class='COMMENT'>// C# Program to Caluculate the power exponent value</span>
+
+<span class='KEYWORD'>using</span> <span class='IDENTIFIER'>System</span><span class='OPERATOR'>;</span>
+<span class='KEYWORD'>using</span> <span class='IDENTIFIER'>System</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Collections</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Generic</span><span class='OPERATOR'>;</span>
+<span class='KEYWORD'>using</span> <span class='IDENTIFIER'>System</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Linq</span><span class='OPERATOR'>;</span>
+<span class='KEYWORD'>class</span> <span class='IDENTIFIER'>program</span>
+<span class='OPERATOR'>{</span>
+    <span class='KEYWORD'>static</span> <span class='KEYWORD'>void</span> <span class='IDENTIFIER'>Main</span><span class='OPERATOR'>(</span><span class='IDENTIFIER'>string</span><span class='OPERATOR'>[</span><span class='OPERATOR'>]</span> <span class='IDENTIFIER'>args</span><span class='OPERATOR'>)</span>
+    <span class='OPERATOR'>{</span>
+        <span class='IDENTIFIER'>IEnumerable</span><span class='OPERATOR'><</span><span class='IDENTIFIER'>int</span><span class='OPERATOR'>></span> <span class='IDENTIFIER'>oddNums</span> <span class='OPERATOR'>=</span>
+ 
+            <span class='IDENTIFIER'>Enumerable</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Range</span><span class='OPERATOR'>(</span><span class='INTEGER'>20</span><span class='OPERATOR'>,</span> <span class='INTEGER'>20</span><span class='OPERATOR'>)</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Where</span><span class='OPERATOR'>(</span><span class='IDENTIFIER'>x</span> <span class='OPERATOR'>=</span><span class='OPERATOR'>></span> <span class='IDENTIFIER'>x</span> <span class='OPERATOR'>%</span> <span class='INTEGER'>2</span> <span class='OPERATOR'>!</span><span class='OPERATOR'>=</span> <span class='INTEGER'>0</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+ 
+        <span class='KEYWORD'>foreach</span> <span class='OPERATOR'>(</span><span class='KEYWORD'>int</span> <span class='IDENTIFIER'>n</span> <span class='KEYWORD'>in</span> <span class='IDENTIFIER'>oddNums</span><span class='OPERATOR'>)</span>
+        <span class='OPERATOR'>{</span>
+            <span class='IDENTIFIER'>Console</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>WriteLine</span><span class='OPERATOR'>(</span><span class='IDENTIFIER'>n</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+        <span class='OPERATOR'>}</span>
+        <span class='IDENTIFIER'>Console</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>ReadLine</span><span class='OPERATOR'>(</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+ 
+    <span class='OPERATOR'>}</span>
+<span class='OPERATOR'>}</span></pre></body>

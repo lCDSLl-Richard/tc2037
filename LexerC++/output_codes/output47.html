@@ -1,0 +1,21 @@
+<head><link rel='stylesheet' href='../style.css'></head><body><pre><span class='COMMENT'>// C# Program to Generate Random Numbers</span>
+
+<span class='KEYWORD'>using</span> <span class='IDENTIFIER'>System</span><span class='OPERATOR'>;</span>
+<span class='KEYWORD'>class</span> <span class='IDENTIFIER'>Program</span>
+<span class='OPERATOR'>{</span>
+    <span class='KEYWORD'>static</span> <span class='KEYWORD'>void</span> <span class='IDENTIFIER'>Main</span><span class='OPERATOR'>(</span><span class='OPERATOR'>)</span>
+    <span class='OPERATOR'>{</span>
+        <span class='IDENTIFIER'>Console</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>WriteLine</span><span class='OPERATOR'>(</span><span class='STRING'>"Some Random Numbers that are generated are : "</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+        <span class='KEYWORD'>for</span> <span class='OPERATOR'>(</span><span class='KEYWORD'>int</span> <span class='IDENTIFIER'>i</span> <span class='OPERATOR'>=</span> <span class='INTEGER'>1</span><span class='OPERATOR'>;</span> <span class='IDENTIFIER'>i</span> <span class='OPERATOR'><</span> <span class='INTEGER'>10</span><span class='OPERATOR'>;</span> <span class='IDENTIFIER'>i</span><span class='OPERATOR'>+</span><span class='OPERATOR'>+</span><span class='OPERATOR'>)</span>
+        <span class='OPERATOR'>{</span>
+            <span class='IDENTIFIER'>Randfunc</span><span class='OPERATOR'>(</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+        <span class='OPERATOR'>}</span>
+    <span class='OPERATOR'>}</span>
+    <span class='KEYWORD'>static</span> <span class='IDENTIFIER'>Random</span> <span class='IDENTIFIER'>r</span> <span class='OPERATOR'>=</span> <span class='KEYWORD'>new</span> <span class='IDENTIFIER'>Random</span><span class='OPERATOR'>(</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+    <span class='KEYWORD'>static</span> <span class='KEYWORD'>void</span> <span class='IDENTIFIER'>Randfunc</span><span class='OPERATOR'>(</span><span class='OPERATOR'>)</span>
+    <span class='OPERATOR'>{</span>
+        <span class='KEYWORD'>int</span> <span class='IDENTIFIER'>n</span> <span class='OPERATOR'>=</span> <span class='IDENTIFIER'>r</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Next</span><span class='OPERATOR'>(</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+        <span class='IDENTIFIER'>Console</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>WriteLine</span><span class='OPERATOR'>(</span><span class='IDENTIFIER'>n</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+        <span class='IDENTIFIER'>Console</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>ReadLine</span><span class='OPERATOR'>(</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+    <span class='OPERATOR'>}</span>
+<span class='OPERATOR'>}</span></pre></body>

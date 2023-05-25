@@ -1,0 +1,27 @@
+<head><link rel='stylesheet' href='../style.css'></head><body><pre><span class='COMMENT'>// C# Program to Swap two Numbers</span>
+
+<span class='KEYWORD'>using</span> <span class='IDENTIFIER'>System</span><span class='OPERATOR'>;</span>
+<span class='KEYWORD'>using</span> <span class='IDENTIFIER'>System</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Collections</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Generic</span><span class='OPERATOR'>;</span>
+<span class='KEYWORD'>using</span> <span class='IDENTIFIER'>System</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Linq</span><span class='OPERATOR'>;</span>
+<span class='KEYWORD'>using</span> <span class='IDENTIFIER'>System</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Text</span><span class='OPERATOR'>;</span>
+<span class='KEYWORD'>namespace</span> <span class='IDENTIFIER'>Program</span>
+<span class='OPERATOR'>{</span>
+    <span class='KEYWORD'>class</span> <span class='IDENTIFIER'>Program</span>
+    <span class='OPERATOR'>{</span>
+        <span class='KEYWORD'>static</span> <span class='KEYWORD'>void</span> <span class='IDENTIFIER'>Main</span><span class='OPERATOR'>(</span><span class='IDENTIFIER'>string</span><span class='OPERATOR'>[</span><span class='OPERATOR'>]</span> <span class='IDENTIFIER'>args</span><span class='OPERATOR'>)</span>
+        <span class='OPERATOR'>{</span>
+            <span class='KEYWORD'>int</span> <span class='IDENTIFIER'>num1</span><span class='OPERATOR'>,</span> <span class='IDENTIFIER'>num2</span><span class='OPERATOR'>,</span> <span class='IDENTIFIER'>temp</span><span class='OPERATOR'>;</span>
+            <span class='IDENTIFIER'>Console</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Write</span><span class='OPERATOR'>(</span><span class='STRING'>"\nEnter the First Number : "</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+            <span class='IDENTIFIER'>num1</span> <span class='OPERATOR'>=</span> <span class='IDENTIFIER'>int</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Parse</span><span class='OPERATOR'>(</span><span class='IDENTIFIER'>Console</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>ReadLine</span><span class='OPERATOR'>(</span><span class='OPERATOR'>)</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+            <span class='IDENTIFIER'>Console</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Write</span><span class='OPERATOR'>(</span><span class='STRING'>"\nEnter the Second Number : "</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+            <span class='IDENTIFIER'>num2</span> <span class='OPERATOR'>=</span> <span class='IDENTIFIER'>int</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Parse</span><span class='OPERATOR'>(</span><span class='IDENTIFIER'>Console</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>ReadLine</span><span class='OPERATOR'>(</span><span class='OPERATOR'>)</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+            <span class='IDENTIFIER'>temp</span> <span class='OPERATOR'>=</span> <span class='IDENTIFIER'>num1</span><span class='OPERATOR'>;</span>
+            <span class='IDENTIFIER'>num1</span> <span class='OPERATOR'>=</span> <span class='IDENTIFIER'>num2</span><span class='OPERATOR'>;</span>
+            <span class='IDENTIFIER'>num2</span> <span class='OPERATOR'>=</span> <span class='IDENTIFIER'>temp</span><span class='OPERATOR'>;</span>
+            <span class='IDENTIFIER'>Console</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Write</span><span class='OPERATOR'>(</span><span class='STRING'>"\nAfter Swapping : "</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+            <span class='IDENTIFIER'>Console</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Write</span><span class='OPERATOR'>(</span><span class='STRING'>"\nFirst Number : "</span><span class='OPERATOR'>+</span><span class='IDENTIFIER'>num1</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+            <span class='IDENTIFIER'>Console</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Write</span><span class='OPERATOR'>(</span><span class='STRING'>"\nSecond Number : "</span><span class='OPERATOR'>+</span><span class='IDENTIFIER'>num2</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+            <span class='IDENTIFIER'>Console</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Read</span><span class='OPERATOR'>(</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+        <span class='OPERATOR'>}</span>
+    <span class='OPERATOR'>}</span>
+<span class='OPERATOR'>}</span></pre></body>

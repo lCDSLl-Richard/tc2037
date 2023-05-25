@@ -1,0 +1,28 @@
+<head><link rel='stylesheet' href='../style.css'></head><body><pre><span class='COMMENT'>// C# Program to Find the Minimum Range of Values for Decimal, Float and Double Datatype</span>
+
+<span class='KEYWORD'>using</span> <span class='IDENTIFIER'>System</span><span class='OPERATOR'>;</span>
+<span class='KEYWORD'>using</span> <span class='IDENTIFIER'>System</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Collections</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Generic</span><span class='OPERATOR'>;</span>
+<span class='KEYWORD'>using</span> <span class='IDENTIFIER'>System</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Linq</span><span class='OPERATOR'>;</span>
+<span class='KEYWORD'>using</span> <span class='IDENTIFIER'>System</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Text</span><span class='OPERATOR'>;</span>
+<span class='KEYWORD'>namespace</span> <span class='IDENTIFIER'>maxdatatype</span>
+<span class='OPERATOR'>{</span>
+    <span class='KEYWORD'>class</span> <span class='IDENTIFIER'>Program</span>
+    <span class='OPERATOR'>{</span>
+        <span class='KEYWORD'>static</span> <span class='KEYWORD'>void</span> <span class='IDENTIFIER'>Main</span><span class='OPERATOR'>(</span><span class='IDENTIFIER'>string</span><span class='OPERATOR'>[</span><span class='OPERATOR'>]</span> <span class='IDENTIFIER'>args</span><span class='OPERATOR'>)</span>
+        <span class='OPERATOR'>{</span>
+            <span class='IDENTIFIER'>Console</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>WriteLine</span><span class='OPERATOR'>(</span><span class='STRING'>"The Minimum Range of the Decimal Data "</span> <span class='OPERATOR'>+</span> 
+                              <span class='STRING'>"Type is : {0} "</span><span class='OPERATOR'>,</span><span class='IDENTIFIER'>Decimal</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>MinValue</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+            <span class='IDENTIFIER'>Console</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>WriteLine</span><span class='OPERATOR'>(</span><span class='STRING'>"The Minimum Range of the Float Data "</span> <span class='OPERATOR'>+</span> 
+                              <span class='STRING'>"Type is : {0} "</span><span class='OPERATOR'>,</span><span class='IDENTIFIER'>Single</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>MinValue</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+            <span class='IDENTIFIER'>Console</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>WriteLine</span><span class='OPERATOR'>(</span><span class='STRING'>"The Minimum Range of the Decimal Data "</span> <span class='OPERATOR'>+</span> 
+                              <span class='STRING'>"Type is : {0} "</span><span class='OPERATOR'>,</span><span class='IDENTIFIER'>Double</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>MinValue</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+            <span class='IDENTIFIER'>Console</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>WriteLine</span><span class='OPERATOR'>(</span><span class='STRING'>"Exponent Form : The Minimum Range of Decimal "</span> <span class='OPERATOR'>+</span> 
+                              <span class='STRING'>"Data Type  is : {0:E}"</span><span class='OPERATOR'>,</span> <span class='IDENTIFIER'>Decimal</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>MinValue</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+            <span class='IDENTIFIER'>Console</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>WriteLine</span><span class='OPERATOR'>(</span><span class='STRING'>"Exponent Form : The Minimum Range of Float "</span> <span class='OPERATOR'>+</span> 
+                              <span class='STRING'>"Data Type  is : {0:E}"</span><span class='OPERATOR'>,</span> <span class='IDENTIFIER'>Single</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>MinValue</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+            <span class='IDENTIFIER'>Console</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>WriteLine</span><span class='OPERATOR'>(</span><span class='STRING'>"Exponent Form : The Minimum Range of Double "</span> <span class='OPERATOR'>+</span> 
+                              <span class='STRING'>"Data Type  is : {0:E}"</span><span class='OPERATOR'>,</span> <span class='IDENTIFIER'>Double</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>MinValue</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+            <span class='IDENTIFIER'>Console</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>ReadLine</span><span class='OPERATOR'>(</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+        <span class='OPERATOR'>}</span>
+    <span class='OPERATOR'>}</span>
+<span class='OPERATOR'>}</span></pre></body>

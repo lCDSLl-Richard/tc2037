@@ -1,0 +1,15 @@
+<head><link rel='stylesheet' href='../style.css'></head><body><pre><span class='COMMENT'>// C# Program to Find the Cube Root of a Given Number</span>
+
+<span class='KEYWORD'>using</span> <span class='IDENTIFIER'>System</span><span class='OPERATOR'>;</span>
+<span class='KEYWORD'>class</span> <span class='IDENTIFIER'>CubeRoot</span>
+<span class='OPERATOR'>{</span>
+    <span class='KEYWORD'>public</span> <span class='KEYWORD'>static</span> <span class='KEYWORD'>void</span> <span class='IDENTIFIER'>Main</span><span class='OPERATOR'>(</span><span class='OPERATOR'>)</span>
+    <span class='OPERATOR'>{</span>
+        <span class='KEYWORD'>double</span> <span class='IDENTIFIER'>num</span><span class='OPERATOR'>,</span> <span class='IDENTIFIER'>res</span><span class='OPERATOR'>;</span>
+        <span class='IDENTIFIER'>Console</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Write</span><span class='OPERATOR'>(</span><span class='STRING'>"Enter the Number : "</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+        <span class='IDENTIFIER'>num</span> <span class='OPERATOR'>=</span> <span class='IDENTIFIER'>double</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Parse</span><span class='OPERATOR'>(</span><span class='IDENTIFIER'>Console</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>ReadLine</span><span class='OPERATOR'>(</span><span class='OPERATOR'>)</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+        <span class='IDENTIFIER'>res</span> <span class='OPERATOR'>=</span> <span class='IDENTIFIER'>Math</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Ceiling</span><span class='OPERATOR'>(</span><span class='IDENTIFIER'>Math</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Pow</span><span class='OPERATOR'>(</span><span class='IDENTIFIER'>num</span><span class='OPERATOR'>,</span> <span class='OPERATOR'>(</span><span class='IDENTIFIER'>double</span><span class='OPERATOR'>)</span><span class='INTEGER'>1</span> <span class='OPERATOR'>/</span> <span class='INTEGER'>3</span><span class='OPERATOR'>)</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+        <span class='IDENTIFIER'>Console</span><span class='OPERATOR'>.</span><span class='IDENTIFIER'>Write</span><span class='OPERATOR'>(</span><span class='STRING'>"Cube Root : "</span> <span class='OPERATOR'>+</span> <span class='IDENTIFIER'>res</span><span class='OPERATOR'>)</span><span class='OPERATOR'>;</span>
+ 
+    <span class='OPERATOR'>}</span>
+<span class='OPERATOR'>}</span></pre></body>

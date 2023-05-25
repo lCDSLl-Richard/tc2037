@@ -13,13 +13,16 @@ public:
   void tokenize(std::string filename)
   {
     std::ifstream file(filename);
+    if (!file.is_open())
+    {
+      return;
+    }
     std::string buffer;
     std::string next;
     while (file.peek() != EOF)
     {
       buffer += file.get();
       next = file.peek();
-      std::cout << buffer << std::endl;
       if (std::regex_match(buffer + next, multi_comment_start))
       {
         while (buffer.back() != '*' || file.peek() != '/')
@@ -86,16 +89,16 @@ public:
       }
     }
     file.close();
-    for (auto token : tokens)
-    {
-      std::cout << token.value << " " << token.enum_to_string() << std::endl;
-    }
   }
 
   void output(std::string filename)
   {
     std::ofstream file(filename);
-    file << "<head><link rel='stylesheet' href='style.css'></head><body><pre>";
+    if (!file.is_open())
+    {
+      return;
+    }
+    file << "<head><link rel='stylesheet' href='../style.css'></head><body><pre>";
     for (auto token : tokens)
     {
       token.type != NONE ? file << "<span class='" << token.enum_to_string() << "'>" << token.value << "</span>" : file << token.value;
